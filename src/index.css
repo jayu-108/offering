@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.carousel-inner > .item > img {
-  width:640px;
-  height:360px;
+.carousel-inner > .carousel-item > img {
+  width: 50%;
+  height: 50vh;
 }

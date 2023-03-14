@@ -3,7 +3,7 @@ import React from 'react'
 
 const Carousel = () => {
     return (
-        <div>
+        <div className='container'>
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
