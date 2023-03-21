@@ -32,7 +32,7 @@ function Home() {
                     <div class="col-md-6">
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
-                                <strong class="d-inline-block mb-2 text-success">Association</strong>
+                                <strong class="d-inline-block mb-2 text-warning">Association</strong>
                                 <h3 class="mb-0">Bhagvatam Class</h3>
                                 <div class="mb-1 text-muted">Nov 11</div>
                                 <p class="mb-auto">
@@ -55,7 +55,7 @@ function Home() {
                     <div class="col-md-6">
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
-                                <strong class="d-inline-block mb-2 text-primary">Initiative</strong>
+                                <strong class="d-inline-block mb-2 text-success">Initiative</strong>
                                 <h3 class="mb-0">Sunday School</h3>
                                 <div class="mb-1 text-muted">Nov 12</div>
                                 <p class="card-text mb-auto">
@@ -75,8 +75,8 @@ function Home() {
                     <div class="col-md-6">
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
-                                <strong class="d-inline-block mb-2 text-success">Association</strong>
-                                <h3 class="mb-0">Bhagvatam Class</h3>
+                                <strong class="d-inline-block mb-2 text-danger">Events</strong>
+                                <h3 class="mb-0">Janmashtami</h3>
                                 <div class="mb-1 text-muted">Nov 11</div>
                                 <p class="mb-auto">
                                     This is a wider card with supporting text below as a natural
