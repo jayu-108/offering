@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Navbar from './Navbar'
 
 const Join = () => {
@@ -62,6 +63,7 @@ const Join = () => {
                     </div>
                 </form>
             </div>
+            <Footer />
         </>
     )
 }

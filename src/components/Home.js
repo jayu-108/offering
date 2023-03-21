@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from './Carousel'
+import Footer from './Footer'
 import Navbar from './Navbar'
 
 function Home() {
@@ -94,6 +95,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
