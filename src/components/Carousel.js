@@ -3,20 +3,19 @@ import React from 'react'
 
 const Carousel = () => {
     return (
-        <div className='container mt-1'>
-            <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+        // <div style={{marginTop: '3.5rem!important'}}>
+        <div >
+            <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src='https://www.iskconpune.com/wp-content/uploads/2023/01/narsimha-chaturdashi1.jpeg' className="d-block w-100" alt="..."/>
+                        <img src='https://www.iskconpune.com/wp-content/uploads/2023/01/narsimha-chaturdashi1.jpeg' className='d-inline-block w-100' style={{height:' 65vh'}}
+                        alt="..."/>
                     </div>
                     <div className="carousel-item">
-                        <img src='https://www.iskconpune.com/wp-content/uploads/2023/01/jagannath-baladev-subhadra.jpeg' className="d-block w-100" alt="..."/>
+                        <img src='https://www.iskconpune.com/wp-content/uploads/2023/01/jagannath-baladev-subhadra.jpeg' className='d-inline-block w-100' style={{height:' 65vh'}} alt="..."/>
                     </div>
                     <div className="carousel-item">
-                        <img src='https://www.iskconpune.com/wp-content/uploads/2023/01/Harinam-Sankirtan1-1.jpg' className="d-block w-100" alt="..."/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src='https://www.iskconpune.com/wp-content/uploads/2023/01/dieties-live-darshan.jpg' className="d-block w-100" alt="..."/>
+                        <img src='https://www.iskconpune.com/wp-content/uploads/2023/01/dieties-live-darshan.jpg' className='d-inline-block w-100' style={{height:' 65vh'}} alt="..."/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
