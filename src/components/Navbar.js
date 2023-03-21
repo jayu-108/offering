@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -23,6 +23,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
+                    <button className="btn btn-warning btn-sm mx-2">Donate Now</button>
             </nav>
         </div>
     )
