@@ -66,7 +66,7 @@ const Featurecard = () => {
                                 <strong class="d-inline-block mb-2 text-danger">Events</strong>
                                 <h3 class="mb-1">Janmashtami</h3>
                                 <p class="mb-auto">
-                                    We celebrate festivals like Janmashtami, Ramnavami, Gaurpaurnima, etc. by organizing event on large scale in which people across whole town are invited to take blessings of lord and have devotees association.
+                                    We celebrate festivals like Janmashtami, Ramnavami, Gaurpaurnima, etc. by organizing event on large scale in which people across whole town are invited to take blessings of lord .
                                 </p>
                                 <a href="#" class="stretched-link">Continue reading</a>
                             </div>
