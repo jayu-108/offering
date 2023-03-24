@@ -9,9 +9,11 @@ const Featurecard = () => {
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
                                 <strong class="d-inline-block mb-2 text-primary">Initiative</strong>
-                                <h3 class="mb-1">Govardhan Goshala</h3>
+                                <h3 class="mb-0">Govardhan Goshala</h3>
+                                <div class="mb-1 text-muted">Nov 12</div>
                                 <p class="card-text mb-auto">
-                                    By the grace of lord Krishna we try our level best to serve Gomata, We take care of orphan cows by now we have 30+ cows in our goshala. 
+                                    This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.
                                 </p>
                                 <a href="#" class="stretched-link">Continue reading</a>
                             </div>
@@ -26,9 +28,11 @@ const Featurecard = () => {
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
                                 <strong class="d-inline-block mb-2 text-warning">Association</strong>
-                                <h3 class="mb-1">Bhagvatam Class</h3>
+                                <h3 class="mb-0">Bhagvatam Class</h3>
+                                <div class="mb-1 text-muted">Nov 11</div>
                                 <p class="mb-auto">
-                                    Every thursday we gather for Bhagvatam Class and Kirtan. After the class we distribute Prasadam for all the devotees.
+                                    This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.
                                 </p>
                                 <a href="#" class="stretched-link">Continue reading</a>
                             </div>
@@ -36,6 +40,7 @@ const Featurecard = () => {
                                 <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/500x700/?iskcon,devotees" alt="" />
                                 <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"></rect>
+
                             </div>
                         </div>
                     </div>
@@ -46,9 +51,11 @@ const Featurecard = () => {
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
                                 <strong class="d-inline-block mb-2 text-success">Initiative</strong>
-                                <h3 class="mb-1">Sunday School</h3>
+                                <h3 class="mb-0">Sunday School</h3>
+                                <div class="mb-1 text-muted">Nov 12</div>
                                 <p class="card-text mb-auto">
-                                    We started this initiative for sowing seeds of values, culture and tradition for our upcoming generation, In sunday school we take various activities for developing spiritual knowledge of child.
+                                    This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.
                                 </p>
                                 <a href="#" class="stretched-link">Continue reading</a>
                             </div>
@@ -64,7 +71,8 @@ const Featurecard = () => {
                         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="col p-4 d-flex flex-column position-static">
                                 <strong class="d-inline-block mb-2 text-danger">Events</strong>
-                                <h3 class="mb-1">Janmashtami</h3>
+                                <h3 class="mb-0">Janmashtami</h3>
+                                <div class="mb-1 text-muted">Nov 11</div>
                                 <p class="mb-auto">
                                     We celebrate festivals like Janmashtami, Ramnavami, Gaurpaurnima, etc. by organizing event on large scale in which people across whole town are invited to take blessings of lord .
                                 </p>

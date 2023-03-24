@@ -13,7 +13,6 @@ const UserSchema = new Schema({
     address:{
         type: String
     },
-    mobile
     date:{
         type: Date,
         default: Date.now
