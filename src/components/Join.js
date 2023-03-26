@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 const Join = () => {
 
     const[details, setDetails] = useState({firstname: "", lastname: "", address:"", mobile: ""})
+    const[alert, setAlert] = useState(false)
 
     const handleSubmit = async (e) =>{
         e.preventDefault();
@@ -17,6 +18,9 @@ const Join = () => {
             body: JSON.stringify({ firstname: details.firstname, lastname: details.lastname, address:details.address, mobile: details.mobile })
         })
         const json = await response.json();
+        if(json.firstname !== null){
+            setAlert(true)
+        }
         console.log(json)
     }
 
